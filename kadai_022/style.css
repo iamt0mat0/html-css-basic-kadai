@@ -45,10 +45,9 @@ a:hover {
 a:visited {
     color: rgb(193, 234, 251);
 }
-.contents p:nth-child(3)::first-letter {
-  color: rgb(97, 206, 249);
-  font-weight: bold;
-}
+.contents p:nth-of-type(2)::first-letter {
+    color: rgb(97, 206, 249);
+    font-weight: bold;
 #parent {
   display: flex;
   justify-content: space-between; 
@@ -65,8 +64,17 @@ a:visited {
     width: 70%;
 }
 @media screen and (max-width: 768px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
     #parent {
-    flex-direction: column;
-       
+        flex-direction: column;
+
+    }
 }
 }
