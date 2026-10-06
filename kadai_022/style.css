@@ -36,33 +36,42 @@ footer {
     background-color: rgb(244, 79, 79);
     text-align: center;
 }
-a{
+
+a {
     color: rgb(255, 255, 255);
 }
+
 a:hover {
     color: rgb(245, 178, 168);
 }
+
 a:visited {
     color: rgb(193, 234, 251);
 }
+
 .contents p:nth-of-type(2)::first-letter {
     color: rgb(97, 206, 249);
     font-weight: bold;
-#parent {
-  display: flex;
-  justify-content: space-between; 
 }
-.contents{
+
+#parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents {
     border: 3px solid rgb(238, 204, 204);
     text-align: center;
     flex-basis: 25%;
     padding: 10px 15px;
     margin: 20px;
 }
-.contents img{
+
+.contents img {
     margin: 10px 0;
     width: 70%;
 }
+
 @media screen and (max-width: 768px) {
     h2 {
         font-size: 30px;
@@ -76,5 +85,4 @@ a:visited {
         flex-direction: column;
 
     }
-}
 }
